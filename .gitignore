@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/android,androidstudio,macos,windows,kotlin
-# Edit at https://www.toptal.com/developers/gitignore?templates=android,androidstudio,macos,windows,kotlin
+# Created by https://www.toptal.com/developers/gitignore/api/androidstudio,android,macos,windows,kotlin,firebase
+# Edit at https://www.toptal.com/developers/gitignore?templates=androidstudio,android,macos,windows,kotlin,firebase
 
 ### Android ###
 # Built application files
@@ -99,6 +99,15 @@ output.json
 
 # Replacement of .externalNativeBuild directories introduced
 # with Android Studio 3.5.
+
+### Firebase ###
+.idea
+**/node_modules/*
+**/.firebaserc
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
 
 ### Kotlin ###
 # Compiled class file
@@ -283,4 +292,4 @@ fabric.properties
 
 !/gradle/wrapper/gradle-wrapper.jar
 
-# End of https://www.toptal.com/developers/gitignore/api/android,androidstudio,macos,windows,kotlin
+# End of https://www.toptal.com/developers/gitignore/api/androidstudio,android,macos,windows,kotlin,firebase
