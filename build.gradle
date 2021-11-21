@@ -16,6 +16,7 @@ buildscript {
 
         // Firebase SDK
         //noinspection GradleDependency
+        classpath 'com.google.dagger:hilt-android-gradle-plugin:2.28-alpha'
     }
 }
 
